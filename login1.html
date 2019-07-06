@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CUPCAKES LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="css/style-login1.css">
+</head>
+
+<body>
+	<div class="luar">
+		<div class="nav1">
+			<ul>
+						<li><b><a href="1.html">HOME</a></b></li>
+						<li><b><a href="1.html#about">ABOUT</a></b></li>
+						<li><b><a href="1.html#menu">MENU</a></b></li>
+						<li><b><a href="1.html#konten2">FLAVOUR</a></b></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="boxsign">
+		<p class="text">Connect With Us</p>
+		<hr class="hr1">
+
+		<div class="signin">
+			<h1 class="text0">SIGN IN</h1>
+			<p>Sign in if you already have an account with us.</p>
+
+			<form onsubmit="return login()">
+			<input required="required" class="text1" type="email" name="email" id="email" placeholder="Email">
+
+			<div class="line1"></div>
+
+			<input required="required" class="password1" type="password" name="password" id="password" placeholder="Password">
+
+			<hr class="line2"><br>
+			<input required="required" type="button" value="SIGN IN" class="done" onclick="login()"><br>
+			</form>
+		</div>
+
+		<div class="newbie">
+			<h1 class="text0">NEW CUSTOMER?</h1>
+			<p>If you are a new customer, enter your details now to setup an account with us.</p>
+
+			<form onsubmit="return signup()">
+				<input required="required" id="user" type="text" name="user" placeholder="Username"><br><hr class="line3">
+				<input required="required" id="fname" type="text" name="fname" placeholder="First Name"><br><hr class="line3"> 
+				<input required="required" id="lname" type="text" name="lname" placeholder="Last Name"><br><hr class="line3"> 
+				<input id="email1" type="email" required="required" name="email" placeholder="Email"><br><hr class="line3">
+				<input required="required" id="pass1" type="password" name="pass" placeholder="Password"><br><hr class="line3">
+				<input id="pass2" type="password" name="pass" required="required" placeholder="Confirm Password"><br><hr class="line3">
+
+				<input type="submit" value="Create Account" class="done" ><br>
+			</form>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+	function login(){
+		var username= document.getElementById('email').value;
+		var password = document.getElementById('password').value;
+		if (username=="priskaputri15@gmail.com" && password=="12345") {
+				alert("Welcome Our Member!");
+				document.location.href="login1-2.html";
+				return false;
+			} else if (username==""||password==""){
+				alert("Please fill the blank one!")
+				return false;
+			} 
+			else {
+				alert("You entered wrong username and password!");
+				return false;
+			}
+
+	}
+</script>
+
+<script>
+	function signup(){
+		var user = document.getElementById('user').value;
+		var fname = document.getElementById('fname').value;
+		var lname = document.getElementById('lname').value;
+		var email1 = document.getElementById('email1').value;
+		var pass1 = document.getElementById('pass1').value;
+		var pass2 = document.getElementById('pass2').value;
+
+		if (user==""||fname==""||lname==""||email1==""||pass1==""||pass2=="") {
+			alert("Please fill all requirements!");
+			return false;
+		} else {
+			alert("Sign up succees!");
+			sessionStorage.setItem("email1", email1);
+			sessionStorage.setItem("user", user);
+			sessionStorage.setItem("fname", fname);
+			sessionStorage.setItem("lname", lname);
+			sessionStorage.setItem("pass1", pass1);
+			sessionStorage.setItem("pass2", pass2); 
+			window.open('signup1-2.html');
+			return false;
+		} 
+	}
+</script>
+</html>

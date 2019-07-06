@@ -1,0 +1,71 @@
+body{
+	background: url(../gambar/b1.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.luar{
+	height: 30px;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+.nav1{
+	width: 900px;
+	height: 0px;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	background-color: blue;
+}
+
+div ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'calibri';
+	padding: 3px;
+
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.nav1 ul li a:hover{
+	background-color: brown;
+	color: white;
+}
+
+.header img{
+	margin:auto;
+	padding-top:10px;
+	height:20%;
+	width:30%;   
+}
+
+.admin h3{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+}
+
+.wrap{
+	border-radius: 4px;
+	width: 500px;
+	height: 15px;
+	margin-top: 10px;
+	margin: auto;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+
+.acc div span p{
+	color: white;
+	background-color: white;
+}

@@ -1,0 +1,455 @@
+*{
+	margin: 0;
+}
+
+body {
+	background: url(../gambar/b1.jpg)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
+}
+
+/*Header*/
+.back_header_1{
+	height: 675px;
+	background:url(../gambar/slide6.jpg) no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.back_header_2{
+	height: 675px;
+	background:url(../gambar/slide7.jpg) no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.back_header_3{
+	height: 675px;
+	background:url(../gambar/slide5.jpg) no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+/*Navigation Bar*/
+.navbar{
+	padding-top: 5px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	height: 70px;
+	position: fixed;
+	background-color: black;
+	background:rgba(0,0,0,7);
+	z-index: 0;
+	opacity: 0.9;
+	margin: auto;
+	width: 100%;
+}
+.bar{
+	width: 90px;
+	height: 40px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	/*background-color: blue;*/
+	font-size: 18px;
+	overflow: hidden;
+	font-family: 'Tempus Sans ICT';
+	letter-spacing: 5px;
+	transition: 0.5	ease;
+
+}
+
+.gbar{
+	text-decoration: none;
+	color: white;
+	margin: auto;
+}
+.jbar{
+	text-decoration: none;
+	color: white;
+}
+
+.none{
+	width: 55px;
+	height: 40px;
+
+}
+
+.bar:hover{
+	border-bottom:7px solid white;
+}
+/*Name Company*/
+.name_com{
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	padding-top: 150px;
+	/*riptide*/
+	color: #E4F1FE;
+
+}
+.agriculture{
+	/*background-color: black;*/
+	width: 900px;
+	letter-spacing: 35px;
+	font-size:18px;
+	margin: auto;
+	padding-left: 22px;	
+	font-family: 'roboto';
+	font-weight: normal;
+	padding-top: 70px;	
+}
+
+.tl_1{
+	margin:auto;
+	padding-top: 55px;
+	padding-left: 55px;
+	color: white;
+	/*background-color: yellow;*/
+	font-size: 30px;
+	font-family: 'calibri';
+	letter-spacing: 5px;
+	font-weight: bold;
+
+}
+/*end*/
+
+/*about*/
+.bg-about{
+	height: 800px;
+	background:url(../gambar/slide11.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.trans{
+	height: 800px;
+	background-size: cover;
+	background:rgba(0,0,0,0.5);
+	opacity: 10;
+	z-index: 0;
+}
+
+#about{
+	margin: 0 auto;
+	padding-top: 60px;
+	text-align: center;
+	width: 900px;
+	height: 780px;
+	text-align: center;
+}
+/*ini yang css*/
+.background1{
+	height: 200px;
+	width: 900px;
+	/*padding-top: 20px;*/
+	margin-top: 20px;
+}
+.reward{
+	width: 450px;
+	height: 200px;
+	float: left;
+}
+.medal{
+	padding-top: 30px;
+}
+
+.tablenama{
+	margin: 0 auto;
+	color: black;
+	font-size: 'Comic Sans MS';
+}
+
+.textyop{
+	width: 450px;
+	height: 200px;
+	float: right;
+}
+/*end*/
+
+.t1{
+	color: #F89406;
+	font-family: 'Calibri';
+	font-weight: bold;
+	width: 400px;
+	height: auto;
+	padding-top: 40px;
+	padding-left: 5px;
+}
+
+.t2{
+	font-family: 'Comic Sans MS';
+	font-size: 11pt;
+	width: 100%;
+	color: #f5fffa;
+	padding-top: 10px;
+}
+
+.t6{
+	font-family: 'Comic Sans MS';
+	font-size: 11pt;
+	width: 100%;
+	color: #f5fffa;
+	padding-top: 5px;
+}
+.t5{
+	color: #F89406;
+	font-family: 'Calibri';
+	font-weight: bold;
+	width: 400px;
+	height: auto;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.t4{
+	font-family: 'Comic Sans MS';
+	font-size: 11pt;
+	width: 100%;
+	color: #f5fffa;
+	padding-top: 10px;
+}
+.t3{
+	color: #F89406;
+	font-family: 'Calibri';
+	font-weight: bold;
+	width: 400px;
+	height: auto;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.cupcake{
+	padding-top: 30px;
+}
+
+.bake{
+	padding-top: 30px;
+}
+
+/*menu*/
+
+.bg-menu{
+	height: 900px;
+	background:url(../gambar/slide9.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#menu{
+
+	margin: 0 auto;
+	padding-left: 0px;
+	height: auto;
+	padding-top: 60px;
+}
+
+.menu1{
+	font-family: 'tekton pro';
+	font-size: 20pt;
+	text-align: center;
+	padding-top: 50px;
+	letter-spacing: 2px;
+	color: #F62459;
+}
+
+.menu2{
+	padding-top: 5px;
+	letter-spacing: 2px;
+	font-size: 17pt;
+	font-family: 'tekton pro';
+	text-align: center;
+	background-color: pink;
+}
+
+.nama{
+	font-family: tahoma;
+	font-size: 12 pt;
+	padding-top: 10px;
+	text-align: center;
+}
+.text{
+	font-family: tahoma;
+	font-size: 12pt;
+}
+
+.title{
+	width: 100%;
+	padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	height: 50%;
+}
+
+ .persegi{
+ 	margin: 10px;
+ 	display: inline-block;
+ }
+.kotak img{
+	border-radius: 20%;
+	padding: 20px 20px 20px 20px;
+	width: 220px;
+}
+.kotak{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	float: left;
+}
+
+/*konten2*/
+
+#konten2{
+	width: 900px;
+	padding: 0px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.menu4{
+	color: #f5fffa;
+	letter-spacing: 2px;
+	padding-top: 50px;
+	font-size: 20pt;
+	font-family: "tekton pro";
+	text-align: center;
+}
+
+.menu3{
+	letter-spacing: 2px;
+	padding-top: 50px;
+	font-size: 17pt;
+	font-family: "tekton pro";
+	text-align: center;
+	color:white;
+}
+
+.kotak-alas{
+	width: 100%;
+	padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	height: 50%;
+}
+
+.kotak-produk{
+	display: inline-block;
+}
+
+.col-4{
+	width: 25%;
+	padding: 0 4%;
+    padding-top: 0px;
+    padding-right: 4%;
+    padding-bottom: 0px;
+    padding-left: 4%;
+}
+
+.gambar-produk img {
+	width: 100%;
+	padding-top: 10px;
+	border-radius: 50%;
+}
+
+.deskripsi-produk h2 {
+	/*color: #F89406;*/
+	color: #F62459;
+	text-align: center;
+	font-family: 'Calibri';
+}
+
+.deskripsi-produk p {
+	color: white;
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 15pt;
+}
+
+/*footer*/
+#footer{
+	background-color: #491e13;
+	padding-top: 30px;
+	background-size: auto;
+	/*width: 100%;*/
+	height: 180px;
+	color:white;
+	width: 100vw;
+	margin-left: -225px;
+	margin-right: -100px;
+}
+
+#footer p{
+	float: right;
+	padding-right: 15px;
+	padding-top: 150px;
+}
+
+
+.contact{
+	width: 300px;
+	height: 160px;
+	padding-top: 3px;
+	float: left;
+}
+
+#copy p{
+	margin: 0 auto;
+
+	padding-right: 300px;
+	padding-top: 150px;
+	color: white;
+}
+
+.soc {
+	padding-top: 3px;
+	width: 30px;
+	height: 30px;
+}
+
+.soc {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0px 0px 20px 20px;
+	padding-left: 30px;
+	position: relative;
+	top: 20px;
+	width: 300px;
+	float: right;
+}
+
+#social li{
+	text-decoration: none;
+	display: inline-block;
+	float: bottom;
+	padding-right: 10px;
+}
+.contact ul li{
+	padding: 5px;
+	float: right;
+}
+
+.contact address{
+	padding-left: 40px;
+}
+
+.contact a{
+	cursor: pointer;
+
+}

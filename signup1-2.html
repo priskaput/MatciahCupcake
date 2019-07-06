@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style-signup1-2.css">
+<body>
+	<div class="luar">
+		<div class="nav1">
+			<ul>
+						<li><b><a href="1.html">HOME</a></b></li>
+						
+						<li><b><a href="login1.html">LOGOUT</a></b></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="wrap">
+		<div class="header">
+			<a href="1.html"><img src="gambar/matchia-logo.png"></a>
+		</div>
+
+		<div class="admin">
+	    	<h3>Your Account</h3>
+		</div>
+
+			<div class="acc">
+	    		<span>Username </span><p id="sukses-user"></p>
+	    		<span>Email anda </span><p id="sukses-email1"></p>
+				<span>Password anda </span><p id="sukses-pass1"></p>
+			</div>	
+	</div>
+
+</body>
+
+<script type="text/javascript">
+document.getElementById('sukses-user').innerHTML = sessionStorage.getItem("user");
+document.getElementById('sukses-email1').innerHTML = sessionStorage.getItem("email1");
+document.getElementById('sukses-pass1').innerHTML = sessionStorage.getItem("pass1");
+
+</script>
+</html>

@@ -1,0 +1,182 @@
+body{
+	background: url(../gambar/b1.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.luar{
+	height: 30px;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+.nav1{
+	width: 900px;
+	height: 0px;
+	color: black;
+	text-align: center;
+	padding-top: 0px;
+	background-color: blue;
+}
+
+div ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'calibri';
+	padding: 3px;
+
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.nav1 ul li a:hover{
+	background-color: brown;
+	color: white;
+}
+
+.hr1{
+	border-width: 2px;
+	border-color: pink;
+}
+
+
+.boxsign {
+	border-radius: 4px;
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #f4b561;
+}
+
+.text{
+	font-family: 'Kristen ITC';
+	font-size: 22pt;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.text0{
+	font-family: tahoma;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.signin {
+	width: 35%;
+	height: 370px;
+	margin: 30px 50px;
+	padding-top: 15px;
+	text-align: center;
+	border-radius: 8px;
+	border-color: #8c5a1c;
+	float: left;
+}
+
+.text1, .password1, .done{
+	height: 30px;
+	width: 200px;
+	border-radius: 4px;
+	font-size: 15px;
+	outline: none;
+	border: 0;
+	background-color: transparent;
+}
+
+.done{
+	height: 40px;
+	width: 150px;
+	background-color: brown;
+	color: white;
+	border-radius: 4px;
+	border-color: brown;
+	cursor: pointer;
+}
+
+.done:hover{
+	background-color: #8c5a1c;
+}
+
+.text1{
+	margin-top: 38px;
+
+}
+
+.password1{
+	margin-top: 30px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: brown;
+  font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: brown;
+}
+
+.line1{
+	margin: 9px 50px 1px;
+	width: 250px;
+	height: 5px;
+	background-color: brown;
+}
+
+.line2{
+	margin: 9px 50px 1px;
+	width: 250px;
+	height: 5px;
+	background-color: brown;
+	border-style: none;
+}
+
+.done{
+	margin-top: 17px;
+}
+
+.forget{
+	margin-top: 30px;
+	font-family: tahoma;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 15px 30px;
+}
+
+
+.newbie{
+	width: 35%;
+	height: 385px;
+	margin-left: 590px;
+	margin-top: 38px;
+	border-radius: 8px;
+	border-color: #8c5a1c;
+}
+
+#user, #fname, #lname, #email1, #pass1, #pass2{
+	padding-top: 10px;
+	height: 30px;
+	width: 200px;
+	background-color: transparent;
+	font-size: 12pt;
+	border-style: none;
+	outline: none;
+}
+
+.line3{
+	margin: 10px 50px 1px;
+	width: 250px;
+	height: 5px;
+	background-color: brown;
+	border-style: none;
+}

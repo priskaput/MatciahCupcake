@@ -1,0 +1,84 @@
+body{
+	background: url(../images/form4.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin:  0 auto;
+}
+
+.wrapper img{
+	text-align: center;
+	width: 15%;
+	height: 20%;
+}
+
+.wrapper {
+	height: 900px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #FDE3A7;
+}
+
+.title{
+	font-family: "calibri";
+	font-size: 20pt;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.note{
+	font-family: tahoma;
+	font-size: 11pt;
+}
+
+.line{
+	height: 5px;
+	background-color: black;
+}
+
+.left{
+	width: 35%;
+	text-align: left;
+}
+
+.right{
+	text-align: left;
+}
+
+.form{
+	margin: 13px auto;
+	width: 70%;
+	border-radius: 5px;
+	font-family: tahoma;
+	padding-top: 3%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+table{
+	padding: 0px 100px 30px;
+}
+
+table tr td{
+	height: 30px;
+}
+
+table tr td input{
+	border-radius: 5px;
+	border-color: #f2b774;
+}
+
+input[type=submit]{
+	border-radius: 5px;
+	background-color: #935e02;
+	color: white;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #f2a348;
+}
+
+fieldset{
+	border-color: brown;
+}
